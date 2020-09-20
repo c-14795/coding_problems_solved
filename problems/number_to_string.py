@@ -84,6 +84,7 @@ def represent_number_in_words(number):
 
 
 input_number = "999999999999"
+input_number = "2147483647"
 print(represent_number_in_words(str(int(input_number.replace(",", "")))))
 
 
